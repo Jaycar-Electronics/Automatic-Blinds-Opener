@@ -1,4 +1,4 @@
-#include <AceelStepper.h> //1.58.0
+#include <AccelStepper.h> //1.58.0
 #include "functions.h"
 #include "config.h"
 #include "XC3718_codes.h"
@@ -14,13 +14,13 @@ void setup(){
 void loop(){
 
 	switch(blink_status()){
-	
+
 	case RESET:		//this is a "fresh reset" case, when the unit has not been reset and doesn't know where it is
 
 		//do nothing until configured.
-		if(I	
+		if(I
 		break;
-	
+
 	case WAIT:
 		break;
 
