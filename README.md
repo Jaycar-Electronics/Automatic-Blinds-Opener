@@ -37,14 +37,29 @@ Our prototype from the picture also had the following, but you can use any case 
 | 4 | IN2 | Motor Controller |
 | 5 | IN3 |  Motor Controller |
 | 6 | IN4 |  Motor Controller |
+| 5V | +5V | Motor Controller |
+| GND | GND| Motor Controller |
+|A1 | S | IR Module |
+|GND | - | IR Module |
 | A0 | + | Solar panel |
 | GND | - |  Solar panel |
 |13 | R| RGB LED module |
 |12 | G|  RGB LED module |
-|11 | B|  RGB LED module | 
+|11 | B|  RGB LED module |
+|GND | - | RGB LED module |
 
 
 ## Assembly
+
+This project is a lot more free-form than other projects, as you've got to set it up to connect to your own home blinds.
+
+#### Stepper motor controller.
+The stepper motor controller could probably be the only difficult part of this, as you've got to get the windings in the right order. Thankfully we've found an easy way to convey the information
+
+![](images/stepper_controller.png)
+
+looking directly at your stepper motor, you can see the 4 wires going left to right, what you want to do is connect them to A and B ( + and - ) for both, with the outside ones connecting directly and the inside ones crossed over. 
+In the source code contro
 
 ## Programming
 
