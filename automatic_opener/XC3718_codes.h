@@ -34,7 +34,7 @@
 #define XC_200		0xffb04f
 
 #define XC_1		0xff30cf
-#define XC_2		0xff18ef
+#define XC_2		0xff18e7
 #define XC_3		0xff7a85
 #define XC_4		0xff10ef
 #define XC_5		0xff38c7
@@ -43,7 +43,7 @@
 #define XC_8		0xff4ab5
 #define XC_9		0xff52ad
 
-#define XC_REPEAT	0xffffff
+#define XC_REPEAT	0xffffffff
 
 #ifdef XC_CODE_STRINGS
 
