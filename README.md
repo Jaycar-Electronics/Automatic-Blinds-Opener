@@ -111,12 +111,16 @@ There is quite a few parameters that need to be calibrated, they are all in `con
 
 ## Use
 
-The RGB LED will indicate what state and status of the machine is in.
-* Red flash - no home location, will not operate Blinds, needs to be homed.
-* Green solid - all ok
-* blue flashing - operating Blinds
-  * fast flash - opening/closing
-  * slow flash - incremental opening.
+When you first start up the machine it will not do anything because it needs to be configured.
+
+1. Start it up and turn the blinds by hand until they are closed. then press `channel`
+2. Use `CH+` and `CH-` to drive the motor to the full open position of the blinds.
+3. Press `channel` again to save your configuration.
+
+keys 0-9 will now do a percentage between close and open.
+
+to configure the Solar Panel, use `find_power.ino` to find the maximum voltage your panel gives in a chosen spot, then put that in `config.h`
+
 
 
 To home the machine, bring it to a fully closed position and press `channel`
