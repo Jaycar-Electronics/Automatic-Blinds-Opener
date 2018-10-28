@@ -53,7 +53,8 @@ Our prototype from the picture also had the following, but you can use any case 
 |11 | B|  RGB LED module |
 |GND | - | RGB LED module |
 
-* Note, some of our *[XC4428](http://jaycar.com.au/p/XC4428) RGB LED Module* stock has been sent as common anode, or `RGB+` instead of the `RGB-` you see above.
+* Note, some of our **[XC4428](http://jaycar.com.au/p/XC4428) RGB LED Module** stock has been sent as common anode, or `RGB+` instead of the `RGB-` you see above.
+If this is the case, you will have to shift the unit down and connect between pins `13,12,11,10`- then change the led pins as defined in the config/led headers.
 
 ## Assembly
 
