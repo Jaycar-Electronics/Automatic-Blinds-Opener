@@ -31,7 +31,6 @@ Our prototype from the picture also had the following, but you can use any case 
 | AccelStepper | Mike McCauley | 1.58.0 |
 | IRremote | shirriff | 2.2.3 |
 
-* Also be sure to download the [XC3718 codes helper]()
 
 ## Connection Table
 
@@ -43,15 +42,18 @@ Our prototype from the picture also had the following, but you can use any case 
 | 5 | IN4 |  Motor Controller |
 | 5V | +5V | Motor Controller |
 | GND | GND| Motor Controller |
+| | | |
 |A1 | S | IR Module |
 |GND | - | IR Module |
 | A0 | + | Solar panel |
 | GND | - |  Solar panel |
+| | | |
 |13 | R| RGB LED module |
 |12 | G|  RGB LED module |
 |11 | B|  RGB LED module |
 |GND | - | RGB LED module |
 
+* Note, some of our *[XC4428](http://jaycar.com.au/p/XC4428) RGB LED Module* stock has been sent as common anode, or `RGB+` instead of the `RGB-` you see above.
 
 ## Assembly
 
